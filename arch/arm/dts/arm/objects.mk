@@ -23,4 +23,6 @@
 
 arch-dtbs-$(CONFIG_ARMV8)+=arm/foundation-v8-gicv2.dtb
 arch-dtbs-$(CONFIG_ARMV8)+=arm/foundation-v8-gicv3.dtb
+arch-dtbs-$(CONFIG_ARMV8)+=arm/qemu-virt64-gicv2.dtb
+arch-dtbs-$(CONFIG_ARMV8)+=arm/qemu-virt64-gicv3.dtb
 arch-dtbs-$(CONFIG_ARMV7A_VE)+=arm/vexpress-v2p-ca15-tc1.dtb
